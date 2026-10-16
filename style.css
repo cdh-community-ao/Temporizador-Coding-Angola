@@ -1,0 +1,66 @@
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #011743; 
+        color: #c9d1d9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        }
+
+        
+        .timer-container {
+            text-align: center;
+            background-color: #002856;
+            padding: 120px 180px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #ffb400;
+            border: 1px solid #ffb400;
+        }
+
+        span{           
+            color: #f41b00;
+            font-size: 3.8rem;            
+            
+        }
+
+        h1 {
+            color: #ffb400; 
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+       
+        .display {
+            font-size: 8rem;
+            font-weight: bold;
+            font-family: monospace;
+            margin-bottom: 30px;
+            color: #ffffff;
+        }
+
+        .buttons-container {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .btn-start { background-color: #238636; color: white; } /* Verde */
+        .btn-start:hover { background-color: #2ea043; }
+
+        .btn-pause { background-color: #d29922; color: white; } /* Amarelo/Laranja */
+        .btn-pause:hover { background-color: #e3b341; }
+
+        .btn-reset { background-color: #21262d; color: #c9d1d9; border: 1px solid #30363d; }
+        .btn-reset:hover { background-color: #30363d; }
